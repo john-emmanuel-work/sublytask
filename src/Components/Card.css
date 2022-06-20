@@ -1,0 +1,216 @@
+.card-container{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px 0px rgb(166, 165, 165);
+    border-radius: 5px;
+}
+
+
+.card-error-background{
+    padding: 0px 20px 0px 20px;
+    overflow-wrap: break-word;
+    background-color: #fbe6e6;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-image-container {
+    position: relative;
+}
+
+.cover-image-container img{
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    display: block;
+}
+
+.cover-image-container.greyed-out>img{
+    filter: brightness(50%);
+}
+
+.cover-image-container.transcribing>img{
+    filter: opacity(0.4);
+}
+
+
+.cover-image-container .transcribing-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 50%;
+}
+
+.card-body{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.card-name{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+.card-status {
+    color: rgb(161, 159, 159);
+}
+
+/*BUTTONS*/
+
+.error-button {
+    height: 40px;
+    width: 110px;
+    margin: 5px;
+    border-radius: 5px;  
+    border: 1px solid;
+}
+
+.delete-button {
+    color: black;
+    background-color: white;
+}
+
+.delete-button:hover {
+    color: black;
+    background-color: #eee1edea;
+}
+
+.report-button {
+    background-color: #8a50f7;
+    color: white;
+    border-color: #8a50f7;
+
+}
+
+.report-button:hover {
+    background-color: #662bd3;
+    color: white;
+    border-color: #8a50f7;
+
+}
+
+.report-button {
+    background-color: #8a50f7;
+    color: white;
+    border-color: #8a50f7;
+
+}
+
+.edit-button {
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;  
+    border: 1px solid;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.edit-button:hover {
+    background-color: rgb(255,255,255,0.5);
+}
+
+.edit-container {
+
+}
+
+.cover-image-container .delete-icon-wrapper{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    z-index: 1000;
+
+}
+
+.delete-icon:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.cover-image-container .edit-button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: 0 auto;
+}
+
+.languages-container {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    align-items: flex-start;
+    text-align: center;
+    overflow: hidden;    
+}
+
+.cover-image-container .languages-icon {
+    height: 25px;
+    width: auto;
+    display: flex;
+    margin: auto;
+}
+
+.languages-icon-background {
+    height: 100%;
+    background-color: #af91e6;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.languages-text {
+    display:flex;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.cover-image-container .languages-container{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    margin: 0 auto;
+}
+
+
+.delete-icon-wrapper {
+    display: inline-block;    
+}
+
+/* PROGRESS BAR */
+
+.new-progress-bar-wrapper {
+    position: absolute;
+    left: 8%;
+    bottom: 35%;
+    margin: 0 auto;
+}
+
+.new-progress{
+    width: 330px;
+    height: 5px;
+    background: grey;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.progress-fill{
+    height: 100%;
+    background: #9d6bf9;
+    background-image: repeating-linear-gradient(-135deg,
+    transparent 0 20px,
+    rgb(107, 58, 199) 20px 40px);   
+    transition: width 0.5s;
+}
+  
