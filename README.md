@@ -4,7 +4,7 @@ The main purpose of this challenge was to demonstrate my React skills. I created
 
 ## Some Notes
 
-I tried to imitate the designs on the PDF as closely as possible. This wasn't always possible. I was able to find a couple of icons that were free for use without attribution and edit one slightly with Figma.
+I tried to imitate the designs on the challenge PDF as closely as possible. This wasn't always possible. I was able to find a couple of icons that were free for use without attribution and edit one slightly with Figma.
 
 The transcription loading bar fills up on a timer.
 
