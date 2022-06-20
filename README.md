@@ -9,3 +9,5 @@ I tried to imitate the designs on the challenge PDF as closely as possible. This
 The transcription loading bar fills up on a timer.
 
 The drop down filter menus are currently not functional. The filter method I initially used was flawed and so due to time constraints I've removed it for the time being.
+
+Given more time, I would also have liked to implement error handling for the fetch function and a set of tests.
